@@ -1,0 +1,66 @@
+.contact {
+    /* display: flex;
+    justify-content: space-between; */
+    /* align-items: center; */
+    padding: 40px;
+    color: #ccc;
+    height: 90vh;
+  }
+  
+
+  h3{
+    text-align: center;
+  }
+  .left-column {
+    flex: 1;
+    margin-right: 40px;
+  }
+  
+  .right-column {
+    flex: 1;
+  }
+  
+  .contact h3 {
+    margin-top: 0;
+  }
+  
+  .contact p {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #555;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
